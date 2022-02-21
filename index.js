@@ -39,7 +39,7 @@ const winTextCreate = () => {
 	const li = document.createElement("li")
 	li.textContent = localStorage.getItem(1)
 	results.appendChild(li)
-	if (leaderboard.length >= 10) {
+	if (leaderboard.length > 10) {
 		results.removeChild(results.firstChild)
 	}
 }
@@ -118,6 +118,14 @@ const createXO = (event) => {
 		tie.classList.add('wintext')
 		gameActive = false
 		body.appendChild(tie)
+		leaderboard.unshift(tie.textContent)
+		localStorage.setItem(1, leaderboard[0])
+		const li = document.createElement("li")
+		li.textContent = localStorage.getItem(1)
+		results.appendChild(li)
+		if (leaderboard.length > 10) {
+			results.removeChild(results.firstChild)
+		}
 	}
 }
 
