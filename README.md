@@ -1,4 +1,4 @@
-# js30-3.1-tic-tac-toe
+# Tic-tac-toe
 ### Javascript Tic-Tac-Toe game
 
 ![image](https://user-images.githubusercontent.com/95471509/190909687-a7ac42fb-35e9-448c-a968-2f7e88a1c97c.png)
