@@ -1,7 +1,8 @@
 # Tic-tac-toe
 ### Javascript Tic-Tac-Toe game
 
-![image](https://user-images.githubusercontent.com/95471509/190909687-a7ac42fb-35e9-448c-a968-2f7e88a1c97c.png)
+![image](https://user-images.githubusercontent.com/95471509/192310345-7ad8be1c-cc82-4491-a304-b36f53b20828.png)
+
 
 
 
